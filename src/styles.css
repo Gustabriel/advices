@@ -1,0 +1,165 @@
+/* ---------------MY CSS--------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button:hover {
+  box-shadow: 1px 1px 2px 5px var(--neon-green);
+}
+
+.App {
+  text-align: center;
+  width: 60%;
+  max-width: 700px;
+  min-width: 280px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+body {
+  background-color: var(--dark-blue);
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  height: 95vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  left: 45%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --font-light: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --gray-blue: hsl(217, 19%, 38%);
+  --dark-blue-medium: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+/* ----------------------------------------------- */
+.id-advice {
+  color: var(--neon-green);
+  font-weight: 500;
+  text-shadow: 1px 5px 5px #000;
+}
+
+.advice {
+  color: var(--font-light);
+  padding: 30px 0;
+  font-weight: 700;
+  width: 100%;
+  max-width: 800px;
+  min-width: 270px;
+  text-shadow: 5px 3px 5px #000;
+}
+
+.container {
+  background-color: var(--dark-blue-medium);
+  padding: 50px 30px;
+  margin-top: 25%;
+  border-radius: 15px;
+  box-shadow: -3px -3px 100px -10px;
+}
+
+.btn-draw {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background-color: var(--neon-green);
+  border: none;
+  box-shadow: 1px 1px 5px 2px;
+}
+
+.select-id {
+  padding-top: 50px;
+}
+
+.icon-random {
+  padding-top: 1px;
+}
+
+.icon-random:hover {
+  animation: dado ease-in-out 4s infinite;
+}
+
+@keyframes dado {
+  10% {
+    transform: rotate3d(-100, -100, -100, 360deg);
+  }
+  100% {
+    transform: rotate3d(100, 100, 100, -360deg);
+  }
+}
+
+.search-advice {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-advice #nmbr {
+  width: 65px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid var(--neon-green);
+  color: var(--neon-green);
+  background-color: transparent;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 1px 1px 2px 1px #000;
+  text-shadow: 2px 1px 5px #000;
+}
+
+.label {
+  width: 65px;
+  height: 35px;
+  position: relative;
+}
+
+.inpt-nmbr {
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 5;
+  position: absolute;
+  right: 10px;
+  top: -8px;
+  color: var(--neon-green);
+  text-shadow: 2px 1px 5px #000;
+}
+
+.menos {
+  position: absolute;
+  top: 6px;
+  right: 12px;
+}
+
+input[type="number"] {
+  width: 60px;
+  height: 40px;
+  font-size: 20px;
+  padding: 0px 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 0;
+  z-index: 10;
+}
+
+.legend {
+  font-size: 12px;
+  padding: 8px;
+}
