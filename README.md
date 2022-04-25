@@ -8,7 +8,7 @@
 
 <h1 align="center">&#x2728 Advices &#x2728</h1>
 
-## <a target="_blank" href="https://magnificent-gumdrop-9552ad.netlify.app/"  ><p align="center">Clique aqui para visitar o site<p></a>
+## <a target="_blank" href="https://tangerine-lily-1fe723.netlify.app/"  ><p align="center">Clique aqui para visitar o site<p></a>
 </div>
 
 
